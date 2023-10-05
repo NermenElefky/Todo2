@@ -1,0 +1,24 @@
+.item{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+.task-name{
+    display: flex;
+    align-items: center;
+}
+label{
+    margin-left: 5px;
+}
+.penicon{
+    margin-right: 8px;
+}
+.icon{
+    cursor: pointer;
+}
+input[type = 'checkbox']:checked + label{
+    color: #777;
+    text-decoration: line-through;
+}

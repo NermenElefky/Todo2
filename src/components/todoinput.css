@@ -1,0 +1,38 @@
+.todoinputparent{
+    padding: 0 15px;
+}
+form{
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+input{
+    flex: 1;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding-left: 7px;
+    caret-color: orange;
+}
+button{
+    background-color: orange;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+label{
+    margin-bottom: 5px;
+}
+select{
+    border:2px solid orange;
+    outline: 0;
+}
